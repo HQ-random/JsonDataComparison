@@ -34,5 +34,5 @@ jobs:
     - name: Upload EXE as artifact
       uses: actions/upload-artifact@v4
       with:
-        name: my-app-exe  # 工件名称
+        name: JSON Data Comparison  # 工件名称
         path: dist/*.exe  # EXE 输出路径（PyInstaller 默认在 dist/）
