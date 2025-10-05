@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['.\\JsonGadget\\JsonDataComparison_test2.py'],
+    ['.\\JsonDataComparison_test2.py'],
     pathex=['.'],
     binaries=[],
     datas=[],
@@ -36,3 +36,4 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
 )
+
