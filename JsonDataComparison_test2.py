@@ -5,7 +5,7 @@ import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 from ttkbootstrap.dialogs import Messagebox
 
-from JsonGadget.JsonQuery_test2 import JsonQueryClient
+from JsonQuery_test2 import JsonQueryClient
 
 
 class Comparison(ttk.Window):
@@ -168,4 +168,5 @@ class Comparison(ttk.Window):
 
 if __name__ == "__main__":
     app = Comparison()
+
     app.mainloop()
